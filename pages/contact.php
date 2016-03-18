@@ -1,11 +1,11 @@
 <?php
-    $page_title = 'Contact Me!';
+    $page_title = 'Contact';
     include ('../shared/header.html');
 ?>
  	
 		<!-- [How to contact me.] -->
 		
-		<span class="contact-header-medium">Contact Me</span>
+		<<div class="header-text">Contact Me</<div>
 		<p style="color: #3A01DF;font-size: 1.3em;">Paige Israel<br>
 		206.715.1597<br>
 		paige@paigeisrael.com</p>
