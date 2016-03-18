@@ -1,7 +1,7 @@
 /* Styles for the basic structure of the web site */
 
 body {
-    width: 960px;
+    width: 100%;
     background-color: #FFFFFF;
     height: auto;
     font: normal 100% 'Alegreya', serif;
@@ -10,9 +10,16 @@ body {
 }
 
 .header {
-    width: 800px;
+    width: 80%;
     padding-top: 1%;
-    margin:0;
+    margin:0 auto;
+}
+
+.header img {
+    display: block;
+    width: auto;
+    height: auto;
+    margin:  0 auto;
 }
 
 .header-text{
@@ -20,7 +27,7 @@ body {
     text-align: center;
     color: #088A08;
     font-family: 'Alegreya SC', serif;
-    font-size: 1.5em;
+    font-size: 2em;
     font-weight: bolder; 
 }
 
@@ -29,6 +36,9 @@ body {
     text-align: center;
     color: #3A01DF;
     font-family: 'Alegreya', serif;
-    font-size: 1em;
+    font-size: 1.5em;
     font-weight: bold;
 }
+
+/*  Navigation */
+
