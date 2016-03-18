@@ -1,6 +1,6 @@
 <?php
     $page_title = 'Paige Israel';
-    include ('shared/header.html');
+    include ('/shared/header.html');
 ?>
         
             <div class="content">

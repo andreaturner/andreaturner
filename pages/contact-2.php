@@ -3,38 +3,8 @@
     include ('../shared/header.html');
 	 
 ?>
-
-<?php
-$errors = [];
-$missing = [];
-if (isset($_POST['send'])) {
-    $expected = ['name', 'email', 'comments'];
-    $required = ['name', 'comments'];
-    $to = 'Paige Israel <paige@paigeisrael.com>';
-    $subject = 'Feedback from contact form.';
-    $headers = [];
-    $headers[] = 'From: paige@paigeisrael.com';
-    $headers[] = 'Cc: paigeaisrael@gmail.com';
-    $headers[] = 'Content-type: text/plain; charset=utf-8';
-    $authorized = '-fpaige@paigeisrael.com';
-    require 'process_mail.php';
-    if ($mailSent) {
-        header('Location: thanks.php');
-        exit;
-    }
-}
-?>
-
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Message body</title>
-        <link href="styles.css" rel="stylesheet" type="text/css">
-    </head>
-
-    <body>
-        <!-- [How to contact me.] -->
+ 	
+		<!-- [How to contact me.] -->
 		
 		<div class="header-text-blue">
 		  Contact Me
@@ -48,7 +18,17 @@ if (isset($_POST['send'])) {
 	    </div>
 		
 			<!-- [Create the form.] -->
-    <?php
+			
+	     <div class="header-medium-text-blue">
+				Contact Form
+		  </div>   
+		    
+		  <div class="header-small-text-blue">
+			 Please provide the following information:
+		  </div>
+		  <br>
+		    
+		  <?php
         if ($_POST && ($suspect || isset($errors['mailfail']))) :
     ?>
 
@@ -58,68 +38,43 @@ if (isset($_POST['send'])) {
         elseif ($errors || $missing) :
     ?>
     
-        <p class="warning">Please fix the item(s) indicated.</p>
+        <p class="warning">Please fix the item(s) indicated</p>
     
     <?php
-        endif;
+        endif;25
     ?>
     
         <form method="post" action="<?= $_SERVER['PHP_SELF']; ?>">
         <p>
-				
-		      <label for="fname">First Name:
-					 
+        <label for="name">Name:
+        
     <?php
-        if ($missing && in_array('fname', $missing)) :
+        if ($missing && in_array('name', $missing)) :
     ?>
     
-        <span class="warning">Please enter your first name</span>
+        <span class="warning">Please enter your name</span>
         
     <?php
         endif;
     ?>
 
         </label>
-            <input type="text" name="fname" id="fname">
+            <input type="text" name="name" id="name"
         
     <?php
         if ($errors || $missing) {
-            echo 'value="' . htmlentities($fname) . '"';
+            echo 'value="' . htmlentities($name) . '"';
         }
     ?>
-		  </p>
-	 
-		  <p>	  
-		  <label for="lname">Last Name:
-        
-    <?php
-        if ($missing && in_array('lname', $missing)) :
-    ?>
-    
-        <span class="warning">Please enter your last name</span>
-        
-    <?php
-        endif;
-    ?>
-		 
-        </label>
-            <input type="text" name="lname" id="lname"
-        
-    <?php
-        if ($errors || $missing) {
-            echo 'value="' . htmlentities($lname) . '"';
-        }
-    ?>
+            
         </p>
-		  
         <p>
             <label for="email">Email:
         
     <?php
         if ($missing && in_array('email', $missing)) :
     ?>
-	 
-	 <p>
+
     <span class="warning">Please enter your email address</span>
     
     <?php
@@ -165,9 +120,11 @@ if (isset($_POST['send'])) {
                 </textarea>
         </p>
         <p>
-            <input type="submit" name="send" id="send" value="Submit">
+            <input type="submit" name="send" id="send" value="Send Comments">
         </p>
         
         </form>
+	    </div>
     </body>
+        
 </html>
