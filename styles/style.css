@@ -1,4 +1,10 @@
-.page {
+/* Styles for the basic structure of the web site */
+
+body {
     width: 960px;
+    background-color: #FFFFFF;
+    height: auto;
+    font: normal 100% 'Alegreya', serif;
+    color: #088A08;
     margin: 0 auto;
 }
