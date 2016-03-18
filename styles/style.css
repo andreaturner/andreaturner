@@ -1,5 +1,9 @@
 /* Styles for the basic structure of the web site */
 
+a {
+    text-decoration: none;
+}
+
 body {
     width: 100%;
     background-color: #FFFFFF;
@@ -40,5 +44,38 @@ body {
     font-weight: bold;
 }
 
+/* End basic structure */
+
 /*  Navigation */
 
+.nav {
+    width:80%;
+    text-align: center;
+    display: inline;
+}
+
+nav a:hover {
+    color: #3A01DF;
+    text-decoration: underline;
+}
+
+.nav ul {
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+    
+.nav li {
+    font-family: 'Alegreya SC', serif;
+    display: inline;
+    font-size: larger;
+    margin-right: 25px;
+    text-decoration: none;
+    color: #088A08;
+}
+
+.nav a {
+    color: #088A08;        
+
+/* End navigation */
