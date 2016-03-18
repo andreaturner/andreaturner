@@ -1,44 +1,16 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-    
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-        <title>Paige Israel Contact Me</title>
-        <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans|Alegreya|Alegreya+SC' rel='stylesheet' type='text/css' />
-        <link rel="shortcut icon" href="favicon.ico" />
-        <link rel="stylesheet" href="style.css"/>
-    </head>
-
-    <body>
-        
-        <div class="header">
-	    <img src="images/tulip-header-1200x300.jpg" width="800" height="152" alt="Tulip Header" />
-            <span>Paige Israel Web Development</span>
-            <span class="header-medium">Web Developer</span>
-	</div>
-        
-        <div class="nav ul">
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About Me</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="resume-and-references.html">Resume' & References</a></li>
-                    <li><a href="contact.html">Contact Me</a></li>
-                </ul>
-            </nav>
-        </div>
-        
-            <div class="content">
-		
-		<!-- How to contact me. -->
+<?php
+    $page_title = 'Contact Me!';
+    include ('../shared/header.html');
+?>
+ 	
+		<!-- [How to contact me.] -->
 		
 		<span class="contact-header-medium">Contact Me</span>
 		<p style="color: #3A01DF;font-size: 1.3em;">Paige Israel<br>
 		206.715.1597<br>
 		paige@paigeisrael.com</p>
 	    
-			<!--  Create the form. -->
+			<!-- [Create the form.] -->
 			
 	     <span id="span-contact-header-medium">Tell Me How To Contact You</span>   
 		    
