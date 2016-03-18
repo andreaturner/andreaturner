@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body1 {
+    background-image: url("under_construction10.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color:#000000;
+}
