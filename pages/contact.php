@@ -21,10 +21,10 @@
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="pages/about.html">About Me</a></li>
-                    <li><a href="pages/portfolio.html">Portfolio</a></li>
-                    <li><a href="pages/resume-and-references.html">Resume' & References</a></li>
-                    <li><a href="pages/contact.html">Contact Me</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="resume-and-references.html">Resume' & References</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
                 </ul>
             </nav>
         </div>
