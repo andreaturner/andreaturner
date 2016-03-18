@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<html lang="en">
     
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 		  <!-- [if lt IE 0]--><script = src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><!--[end if]-->
         <title><?php echo $page_title; ?></title>
+		  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
         <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans|Alegreya|Alegreya+SC' rel='stylesheet' type='text/css' />
         <link rel="shortcut icon" href="../images/favicon.ico" />
         <link rel="stylesheet" href="styles/style.css"/>
@@ -13,17 +15,24 @@
     <body>
         
         <div class="header">
-	    <img src="../images/tulip-header-800x199.jpg" width="800" height="199" alt="Tulip Header" />
-            <span>Paige Israel </span>
-            <span class="header-medium">Web Developer</span>
-	</div>
+				<img src="../images/tulip-header-800x199.jpg" width="800" height="199" alt="Tulip Header" />
+		  </div>
+		  <div class="header-text">
+           Paige Israel
+		  </div>
+        <div class="header-medium">
+				Web Developer
+		  </div>
+	
         
         <div class="nav ul">
             <nav>
                 <ul class="ul">
                     <li><a href="/index.html">Home</a></li>
                     <li><a href="/pages/portfolio.php">Portfolio</a></li>
-                    <li><a href="/pages/contact.php">Contac</a></li>
+                    <li><a href="/pages/contact.php">Contact</a></li>
                 </ul>
             </nav>
         </div>
+	 </body>
+</html>
