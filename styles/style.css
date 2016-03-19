@@ -107,11 +107,15 @@ body {
 
 form {
     width: 40em;
-    border: 1px solid #088A08;
+    border: 2px solid #3A01DF;
     border-radius: 10px;
     margin: 0 auto;
 }
 
+.submit {
+    padding-left: 2%;
+    padding-bottom: 1.0%;
+}
 /* End labels. */
 
 /* Styles for responsive design */

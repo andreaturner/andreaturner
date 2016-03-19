@@ -67,7 +67,7 @@ if (isset($_POST['send'])) {
         <form method="post" action="<?= $_SERVER['PHP_SELF']; ?>">
         <p>
 				
-		      <label for="fname">First Name:
+		      <label class="label" for="fname">First Name:
 					 
     <?php
         if ($missing && in_array('fname', $missing)) :
@@ -89,8 +89,9 @@ if (isset($_POST['send'])) {
     ?>
 		  </p>
 	 
-		  <p>	  
-		  <label for="lname">Last Name:
+		  <p>
+	
+		  <label class="label" for="lname">Last Name:
         
     <?php
         if ($missing && in_array('lname', $missing)) :
@@ -103,17 +104,18 @@ if (isset($_POST['send'])) {
     ?>
 		 
         </label>
-            <input type="text" name="lname" id="lname"
+            <input type="text" name="lname" id="lname">
         
     <?php
         if ($errors || $missing) {
             echo 'value="' . htmlentities($lname) . '"';
         }
     ?>
+	 
         </p>
 		  
         <p>
-            <label for="email">Email:
+            <label class="label" for="email">Email:
         
     <?php
         if ($missing && in_array('email', $missing)) :
@@ -132,7 +134,7 @@ if (isset($_POST['send'])) {
         endif;
     ?>
             </label>
-                <input type="email" name="email" id="email"
+                <input type="email" name="email" id="email" size="50">
                
     <?php
         if ($errors || $missing) {
@@ -142,7 +144,7 @@ if (isset($_POST['send'])) {
         
         </p>
         <p>
-            <label for="comments">Comments:
+            <label class="label textarea" for="comments" rows="6" cols="50">Comments:
             
         <?php
             if ($missing && in_array('comments', $missing)) :
@@ -165,9 +167,10 @@ if (isset($_POST['send'])) {
                 </textarea>
         </p>
         <p>
-            <input type="submit" name="send" id="send" value="Submit">
+            <input class="submit" type="submit" name="send" id="send" value="Submit">
         </p>
         
         </form>
+	
     </body>
 </html>
