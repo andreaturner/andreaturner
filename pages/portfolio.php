@@ -3,12 +3,13 @@
     include ('../shared/header.html');
 	 
 ?>
-<!-- [Stuff I've done....] -->
+<!-- [Sites I've built and/or maintain] -->
+
 <div class="header-text-blue">
     Portfolio
 </div>
             
-    <div id="portfolio">
+<div id="portfolio">
         
      <h3>The Quilting Bee</h3>
         <div>
@@ -27,16 +28,20 @@
             <a href="http://paigeisrael.com/sites/wordman/pages/books-series.php">
             <img src="../images/iftmus-100x147.jpg" width="100" height="147" alt="Iftmus Image"></a>
         </div>
+        
+    <h3>West Seattle Skin Care</h3>
+        <div>
+            <a href="http://westseattleskincare.com">
+            <img src="../images/westseattleskincare-100x82.jpg" width="100" height="82" alt="West Seattle Skin Care Image"></a>
+        </div>
+        
     <h3>Kent Food Bank</h3>
         <div>
             <a href="http://thunderbirds.greenrivertech.net/index.php">
             <img src="../images/kfb-100x112.png" width="100" height="112" alt="Kent Food Bank Logo"</a>
         </div>    
+</div>
     
-    </div>
-    
-        
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
     <!-- jquery stylesheet -->

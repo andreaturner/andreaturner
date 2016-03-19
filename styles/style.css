@@ -80,13 +80,18 @@ body {
     font-weight: bold;
 }
 
-
+.logo {
+    float: left;
+    margin-left: 20%;
+    margin-top: 1%;
+}
 
 /* End basic structure */
 
 /* Labels */
 
 .label {
+    font-weight: 700;
     float: left;
     clear: left;
     display: block;
@@ -196,7 +201,7 @@ nav a:hover {
     font-weight: bold;
 }
 
-/* jQuery stuff */
+/* jQuery stuff for portfolio accordion*/
 
 #portfolio {
     font-size: .75em;
@@ -206,4 +211,54 @@ nav a:hover {
     height: auto;
     text-align: center;
     margin: 0 auto;
+}
+
+/* End jQuery */
+
+}
+
+/* Index page specific styles */
+
+.pic {
+    float: left;
+    border: double #088A08;
+    padding: .5% .5% .2% .5%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.text-blue-index {
+    float: left;
+    font-size: 1.2em;
+    font-weight: 600;
+    padding-top: 3.2%;
+    padding-left: 3%;
+    color: #3A01DF;
+    width: 55%;
+}
+
+.header-text-green-index{
+    display: block;
+    float: left;
+    text-align: center;
+    color: #088A08;
+    font-family: 'Alegreya SC', serif;
+    font-size: 2em;
+    font-weight: bolder;
+    margin-top: 2%;
+    margin-left: 11%;
+}
+
+.text-blue-index-list {
+    float: left;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-top: 1%;
+    padding-left: 31%;
+    color: #3A01DF;
+    width: 55%;
+}
+
+ul {
+    list-style-type: square;  
 }

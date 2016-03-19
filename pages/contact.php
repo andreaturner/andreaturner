@@ -19,7 +19,7 @@ if (isset($_POST['send'])) {
     $authorized = '-fpaige@paigeisrael.com';
     require 'process_mail.php';
     if ($mailSent) {
-        header('Location: thanks.php');
+        header('Location: ../pages/thanks.php');
         exit;
     }
 }
