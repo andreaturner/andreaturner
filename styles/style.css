@@ -195,3 +195,16 @@ nav a:hover {
     font-size: 1.5em;
     font-weight: bold;
 }
+
+/* jQuery stuff */
+
+#portfolio {
+    font-family: 'Alegreya', serif;
+    font-size: 1.5em;
+    border: #000 double;
+    color: #3A01DF;
+    width: 80%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+}
