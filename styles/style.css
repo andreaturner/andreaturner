@@ -199,12 +199,11 @@ nav a:hover {
 /* jQuery stuff */
 
 #portfolio {
-    font-family: 'Alegreya', serif;
-    font-size: 1.5em;
+    font-size: .75em;
+    font-family: 'Alegreya SC', serif;
     border: #000 double;
-    color: #3A01DF;
-    width: 80%;
+    width: 50%;
     height: auto;
-    
+    text-align: center;
     margin: 0 auto;
 }
