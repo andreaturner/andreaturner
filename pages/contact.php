@@ -14,12 +14,12 @@ if (isset($_POST['send'])) {
     $subject = 'Feedback from contact form.';
     $headers = [];
     $headers[] = 'From: paige@paigeisrael.com';
-    $headers[] = 'Cc: paigeaisrael@gmail.com';
+    $headers[] = 'Cc: tostrander@greenriver.edu';
     $headers[] = 'Content-type: text/plain; charset=utf-8';
     $authorized = '-fpaige@paigeisrael.com';
     require 'process_mail.php';
     if ($mailSent) {
-        header('Location: ../pages/thanks.php');
+        header('Location: thanks.php');
         exit;
     }
 }
