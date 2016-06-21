@@ -1,0 +1,264 @@
+/* Styles for the basic structure of the web site */
+
+a {
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+    background-color: #FFFFFF;
+    height: auto;
+    font: normal 100% 'Alegreya', serif;
+    color: #088A08;
+    margin: 0 auto;
+}
+
+.header {
+    width: 80%;
+    padding-top: 1%;
+    margin:0 auto;
+}
+
+.header img {
+    display: block;
+    width: auto;
+    height: auto;
+    margin:  0 auto;
+}
+
+.header-text-green{
+    display: block;
+    text-align: center;
+    color: #088A08;
+    font-family: 'Alegreya SC', serif;
+    font-size: 2em;
+    font-weight: bolder; 
+}
+
+.header-text-blue{
+    display: block;
+    text-align: center;
+    color: #3A01DF;
+    font-family: 'Alegreya SC', serif;
+    font-size: 2em;
+    font-weight: bolder; 
+}
+
+.header-medium-text-blue{
+    display: block;
+    text-align: center;
+    color: #3A01DF;
+    font-family: 'Alegreya', serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.header-medium-text-green{
+    display: block;
+    text-align: center;
+    color: #088A08;
+    font-family: 'Alegreya', serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.header-small-text-green{
+    display: block;
+    text-align: center;
+    color: #088A08;
+    font-family: 'Alegreya', serif;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.header-small-text-blue{
+    display: block;
+    text-align: center;
+    color: #3A01DF;
+    font-family: 'Alegreya', serif;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.logo {
+    float: left;
+    margin-left: 20%;
+    margin-top: 1%;
+}
+
+/* End basic structure */
+
+/* Labels */
+
+.label {
+    font-weight: 700;
+    float: left;
+    clear: left;
+    display: block;
+    width: 135px;
+    text-align: left;
+    padding-left: 1%;
+    padding-top: 1%;
+}
+
+.label-text {
+    padding-left: 15px;
+}
+
+.required  input:after {
+    content: "*";
+    color: #E42217;
+}
+
+form {
+    width: 40em;
+    border: 2px solid #3A01DF;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.submit {
+    padding-left: 2%;
+    padding-bottom: 1.0%;
+}
+/* End labels. */
+
+/* Styles for responsive design */
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+/* End styles for resposive design */
+
+/*  Navigation */
+
+.nav {
+    width:80%;
+    text-align: center;
+    display: inline;
+}
+
+nav a:hover {
+    color: #3A01DF;
+    text-decoration: underline;
+}
+
+.nav ul {
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+    
+.nav li {
+    font-family: 'Alegreya SC', serif;
+    display: inline;
+    font-size: larger;
+    margin-right: 25px;
+    text-decoration: none;
+    color: #088A08;
+}
+
+.nav a {
+    color: #088A08;        
+
+/* End navigation */
+
+/* Contact page */
+
+#header-text-contact {
+    display: block;
+    text-align: center;
+    color: #3A01DF;
+    font-family: 'Alegreya SC', serif;
+    font-size: 2em;
+    font-weight: bold; 
+}
+
+.header-medium-contact {
+    display: block;
+    text-align: center;
+    color: #3A01DF;
+    font-family: 'Alegreya', serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* jQuery stuff for portfolio accordion*/
+
+#portfolio {
+    font-size: .75em;
+    font-family: 'Alegreya SC', serif;
+    border: #000 double;
+    width: 50%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* End jQuery */
+
+}
+
+/* Index page specific styles */
+
+.pic {
+    float: left;
+    border: double #088A08;
+    padding: .5% .5% .2% .5%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.text-blue-index {
+    float: left;
+    font-size: 1.2em;
+    font-weight: 600;
+    padding-top: 3.2%;
+    padding-left: 3%;
+    color: #3A01DF;
+    width: 55%;
+}
+
+.header-text-green-index{
+    display: block;
+    float: left;
+    text-align: center;
+    color: #088A08;
+    font-family: 'Alegreya SC', serif;
+    font-size: 2em;
+    font-weight: bolder;
+    margin-top: 2%;
+    margin-left: 11%;
+}
+
+.text-blue-index-list {
+    float: left;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-top: 1%;
+    padding-left: 31%;
+    color: #3A01DF;
+    width: 55%;
+}
+
+ul {
+    list-style-type: square;  
+}
