@@ -12,8 +12,8 @@
         <div class="header-text-blue">
             Thank You!    
         </div>
-        <div class="header-small-text-green">
-            Thank you submitting the contact form. I'll be in touch soon!.
+        <div class="header-medium-text-green">
+            Thank you submitting the contact form. I'll be in touch soon!
         </div>  
     </body>
 </html>

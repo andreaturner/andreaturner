@@ -10,11 +10,11 @@ $missing = [];
 if (isset($_POST['send'])) {
     $expected = ['name', 'email', 'comments'];
     $required = ['name', 'comments'];
-    $to = 'Paige Israel <paige@paigeisrael.com>';
+    $to = 'Paige Israel <paigeaisrael@gmail.com>';
     $subject = 'Feedback from contact form.';
     $headers = [];
     $headers[] = 'From: paige@paigeisrael.com';
-    $headers[] = 'Cc: tostrander@greenriver.edu';
+    $headers[] = 
     $headers[] = 'Content-type: text/plain; charset=utf-8';
     $authorized = '-fpaige@paigeisrael.com';
     require 'process_mail.php';

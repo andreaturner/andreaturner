@@ -13,31 +13,31 @@
         
      <h3>The Quilting Bee</h3>
         <div>
-           <a href="http://ned.highline.edu/~paigekeys/Portfolio/QuiltingBee/Quilt/index.html">
-           <img src="../images/quiltingBee-100x130.png" width="100" height="130" alt="Quilting Bee Image"></a> 
+				<a href="http://ned.highline.edu/~paigekeys/Portfolio/QuiltingBee/Quilt/index.html" target="_blank">
+				<img src="../images/quiltingBee-100x130.png" width="100" height="130" alt="Quilting Bee Image"></a> 
         </div>
-        
-    <h3>Community Micro Finance</h3>
+		  	  
+	 <h3>Wordman Enterprise</h3>
         <div>
-            <a href="http://ned.highline.edu/~paigekeys/Portfolio/CMF/index.html">
-            <img src="../images/CMF-101x84.png" width="101" height="84" alt="Community Micro Finance Logo"></a>
-        </div>
-        
-    <h3>Wordman Enterprise (in progress)</h3>
-        <div>
-            <a href="http://paigeisrael.com/sites/wordman/pages/books-series.php">
+            <a href="http://www.erickoch-wordman.com" target="_blank">
             <img src="../images/iftmus-100x147.jpg" width="100" height="147" alt="Iftmus Image"></a>
         </div>
         
     <h3>West Seattle Skin Care</h3>
         <div>
-            <a href="http://westseattleskincare.com">
+            <a href="http://westseattleskincare.com" target="_blank">
             <img src="../images/westseattleskincare-100x82.jpg" width="100" height="82" alt="West Seattle Skin Care Image"></a>
+        </div>
+		  
+	 <h3>Community Micro Finance</h3>
+        <div>
+            <a href="http://ned.highline.edu/~paigekeys/Portfolio/CMF/index.html" target="_blank">
+            <img src="../images/CMF-101x84.png" width="101" height="84" alt="Community Micro Finance Logo"></a>
         </div>
         
     <h3>Kent Food Bank</h3>
         <div>
-            <a href="http://thunderbirds.greenrivertech.net/index.php">
+            <a href="http://thunderbirds.greenrivertech.net/index.php" target="_blank">
             <img src="../images/kfb-100x112.png" width="100" height="112" alt="Kent Food Bank Logo"</a>
         </div>    
 </div>

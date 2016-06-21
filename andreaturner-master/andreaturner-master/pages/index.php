@@ -15,7 +15,7 @@
 				I am a kind, quirky, hard-working perfectionist who is passionate about giving people the opportunity
 				to express themselves and showcase thier work or business via the World Wide Web using my talent 
 				and skill as a Web Developer.
-				<br><br>
+				<br>
 				Over the course of my career in IT, I've learned that my particular area of expertise lies in web design and development.
 				Having worked in multiple fast-paced, deadline-driven environments, I have a proven track record of consistently delivering complex
 				projects on time and to budget. I've played a key role in the development of key features for client and internal websites, including
